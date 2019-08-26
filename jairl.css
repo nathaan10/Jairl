@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Livvic', sans-serif;
+  }
+
+header {
+    font-family: 'Livvic', sans-serif;
+    padding: 20px;
+}
+
+header > h1 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin-LEFT: 30px;
+    font-size: 30px;
+}
+
+header > nav > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+nav {
+    width: 100%;
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+nav li {
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 20px;
+    color: black;
+}
+/*
+.shld-lmaoz {
+    display: none;
+    text-align: center;
+    min-width: 50px;
+}
+.shld-lmaoz a {
+    padding: 2px;
+    text-decoration: none;
+    display: block;
+}
+.shld:hover .shld-lmaoz {
+    display: block;
+}*/
+
+info {
+    margin-left: 30px;
+}
+
+.ratio16-9 {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    top: 200%; /* poussé de la moitié de hauteur du référent */
+    transform: translateY(-200%); /* tiré de la moitié de sa propre hauteur */
+  }
+  .ratio16-9 > * {
+    top: 0;
+    left: 0;
+  }
+  .vertical-align {
+    width: 90%;
+    height: 90%;
+  }
+
+p.footer {
+    text-align: center;
+}
+.footer > a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
